@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+}
+.conhead {
+  display: flex;
+  justify-content: center;
+  margin-top: 1cm;
+}
+.conhead li {
+  text-decoration: none;
+  justify-self: unset;
+}
+.conhead li a {
+  color: #0e0b0b;
+  text-decoration: none;
+  padding: 10px 15px;
+  margin-top: 2cm;
+  margin-right: 2.5cm;
+  border-radius: 5px;
+  background: transparent;
+  transition: 0.9s ease;
+}
+.conhead li a:hover {
+  background: rgb(58, 58, 190);
+}
+.main {
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+}
+.about {
+  display: flex;
+}
+video {
+  width: 400px;
+  height: 300px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 2cm;
+}
+.abocon {
+  width: 100px;
+}

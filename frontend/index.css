@@ -1,24 +1,46 @@
 .header {
   display: flex;
+  width: 100%;
+}
+body {
+  margin: 0 10%;
+  width: 75%;
+  text-align: center;
+}
+button{
+  color:rgb(86, 148, 207);
+  border:1px solid rgb(89, 179, 200);
+  border-radius: 10px;
+  cursor: pointer;
+}
+button:hover{
+  color: rebeccapurple;
 }
 .conhead {
   display: flex;
   justify-content: center;
   margin-top: 1cm;
+  flex: 1;
+  justify-content: space-evenly;
+  width: 5cm;
+  
 }
 .conhead li {
   text-decoration: none;
-  justify-self: unset;
+  justify-content: space-evenly;
+  flex: 1;
+  padding: 10px;
 }
 .conhead li a {
   color: #0e0b0b;
   text-decoration: none;
   padding: 10px 15px;
   margin-top: 2cm;
-  margin-right: 2.5cm;
+  margin-right: 1cm;
   border-radius: 5px;
   background: transparent;
   transition: 0.9s ease;
+  padding: 10px;
 }
 .conhead li a:hover {
   background: rgb(58, 58, 190);
@@ -40,5 +62,84 @@ video {
   margin-top: 2cm;
 }
 .abocon {
-  width: 100px;
+  width: 500px;
+  text-align: center;
+  margin-top: 2cm;
+}
+.abocon p {
+  font-size: 0.4cm;
+}
+.abocon h4 {
+  font-size: 1cm;
+}
+.containeri {
+  width: 90%;
+  overflow: hidden;
+}
+.image-container {
+  display: flex;
+  animation: scrollRight 10s linear infinite;
+  width: 90%;
+  margin-left: 2cm;
+}
+
+.image-container img {
+  width: 200px;
+  height: auto;
+  margin-right: 20px;
+}
+
+@keyframes scrollRight {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+/*------mission-----*/
+.mission {
+  display: flex;
+  margin: 1cm;
+}
+.mission img {
+  width: 500px;
+  margin: 1cm;
+}
+.mission p {
+  font-size: 0.5cm;
+}
+/*history*/
+.history {
+  display: flex;
+  margin: 1cm;
+  width: 80%;
+}
+.history img {
+  width: 500px;
+  margin: 1cm;
+}
+.platform {
+  display: flex;
+}
+/*end*/
+.end{
+  display: flex;
+  background: #0e0b0b;
+  margin: 20px;
+
+}
+.end p{
+  color: aquamarine;
+  text-decoration: none;
+}
+.end h3{
+  color: aquamarine;
+}
+.end a{
+  text-decoration: none;
+  
+}
+.end div{
+  padding: 10px;
 }
